@@ -1,0 +1,27 @@
+{
+  "name": "xpl-push",
+  "version": "0.1.0",
+  "description": "Send xpl to Google Cloud message or/and WinRT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "commander": "^2.9.0",
+    "compression": "^1.6.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "nedb": "^1.8.0",
+    "request": "^2.69.0",
+    "xpl-api": "^2.0.0"
+  },
+  "keywords": [
+    "XPL",
+    "gcm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nodejs-XPL/xpl-db.git"
+  },
+  "author": "Olivier Oeuillot",
+  "license": "GPL",
+  "readmeFilename": "README.md"
+}
