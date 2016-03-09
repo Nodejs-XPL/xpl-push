@@ -57,7 +57,7 @@ commander.command("run").action(() => {
         return;
       }
 
-      var pushEngine=new PushEngine(commander, xpl, store);
+      var pushEngine=new PushEngine(commander, xpl, store, deviceAliases);
       pushEngine.start((error, rules) => {
         if (error) {
           console.error("Can not start engine", error);
