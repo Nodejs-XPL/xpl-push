@@ -60,7 +60,7 @@ commander.command("run").action(() => {
       var pushEngine=new PushEngine(commander, xpl, store, deviceAliases);
       pushEngine.start((error, rules) => {
         if (error) {
-          console.error("Can not start engine", error);
+          console.error("Can not start engine", error, error.stack);
           process.exit(3);
           return;
         }
